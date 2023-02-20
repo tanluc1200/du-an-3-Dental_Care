@@ -36,7 +36,8 @@ p {
     align-items: center;
     justify-content: center;
     background-color: var(--primary-color);
-    min-width: 205px;
+    max-width: 205px;
     min-height: 60px;
     border-radius: 30px;
+    color: var(--white-text);
 }
