@@ -1,0 +1,42 @@
+:root {
+    --primary-font: "Sora", sans-serif;
+    --secondary-font: "Open Sans", sans-serif;
+    --primary-color: #2e80ce;
+    --bg-header: #10375c;
+    --white-text: #ffffff;
+    --dark-text: #575f66;
+    --sub-title-color: #10375c;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+}
+p {
+    font-weight: 300;
+}
+/* ===== common use components ======== */
+.content {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    min-width: 205px;
+    min-height: 60px;
+    border-radius: 30px;
+}
