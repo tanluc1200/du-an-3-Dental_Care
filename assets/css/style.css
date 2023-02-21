@@ -657,7 +657,7 @@ h2 {
     padding: 10px;
     width: 185px;
     font-size: 14rem;
-    color: white;
+    color: var(--white-text);
 }
 .footer-right-email .btn {
     color: var(--white-text);
