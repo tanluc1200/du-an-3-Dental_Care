@@ -125,7 +125,8 @@ h2 {
 .service-info-btn:hover,
 .hero-btn:hover,
 .recommend-info a:hover,
-.dentist .content > a:hover {
+.dentist .content > a:hover,
+.patients a:hover {
     opacity: 0.8;
 }
 /* ==================== hero ===================== */
@@ -656,6 +657,7 @@ h2 {
     padding: 10px;
     width: 185px;
     font-size: 14rem;
+    color: white;
 }
 .footer-right-email .btn {
     color: var(--white-text);
